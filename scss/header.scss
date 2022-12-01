@@ -1,0 +1,40 @@
+/*Header*/
+.header {
+    grid-area: head;
+    position: fixed;
+    background-color: black;
+    top: 0%;
+    width: 100%;
+    z-index: 1;
+}
+
+.button-design {
+    color: white;
+    background: white;
+}
+
+.nave {
+    background-color: black !important;
+}
+
+.space-left {
+    margin-left: 1rem;
+}
+
+.space-left1 {
+    margin-left: 4rem;
+}
+
+.logo {
+    @include sizes(6.25rem, 5rem);
+    padding: 10px 10px;
+}
+
+.color {
+    color: white !important;
+}
+
+.navhov:hover {
+    transform: scale(1.2);
+    color: #1C4F60 !important;
+}

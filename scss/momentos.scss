@@ -1,0 +1,127 @@
+/*Momentos del Rock*/
+.title-puntos {
+    font-size: 3rem;
+    text-align: center;
+    padding: 0rem 6rem;
+    @include margin(15rem, 3rem);
+}
+
+.p-momentos {
+    text-align: center;
+    font-size: 2rem;
+    padding: 0rem 5rem;
+    @include margin(2rem, 13rem);
+}
+
+.woodstock {
+    display: flex;
+    background-color: #070216;
+    @extend .momentos-generales;
+}
+
+.woodstock:hover{
+    transform: scale(1.05);
+}
+
+.woodstock-img {
+    @include box-shadow;
+    border-radius: 10px;
+    margin-right: 1.25rem;
+    @include sizes(31.25rem, 15.6rem);
+}
+
+.woodstock-text {
+    text-align: justify;
+    padding-top: 2.2rem;
+}
+
+.margin-ws {
+    margin-bottom: 1rem;
+}
+
+.liveaid {
+    display: flex;
+    background-color: #0D1C21;
+    @extend .momentos-generales;
+}
+
+.liveaid:hover {
+    transform: scale(1.05);
+}
+
+.liveaid-img {
+    @include box-shadow;
+    border-radius: 10px;
+    margin-right: 5px;
+    @include sizes(31.25rem, 15.6rem);
+}
+
+.liveaid-text {
+    text-align: justify;
+    padding-right: 20px;
+}
+
+@media only screen and (max-width:480px){
+    .title-puntos {
+        font-size: 2rem;
+        text-align: center;
+        padding: 0rem 2rem;
+        @include margin(16rem, 18rem);
+    }
+
+    .p-momentos {
+        display: none;
+    }
+    
+    .woodstock {
+        display: flex;
+        flex-direction: column;
+        background-color: #070216;
+        @extend .momentos-generales;
+    }
+    
+    .woodstock:hover{
+        transform: scale(1.05);
+    }
+    
+    .woodstock-img {
+        @include box-shadow;
+        border-radius: 10px;
+        margin-right: 1.25rem;
+        @include momentos-mobile;
+    }
+    
+    .woodstock-text {
+        text-align: justify;
+        padding-top: 2.2rem;
+    }
+    
+    .margin-ws {
+        margin-bottom: 1rem;
+    }
+    
+    .liveaid {
+        display: flex;
+        flex-direction: column;
+        background-color: #0D1C21;
+        @extend .momentos-generales;
+    }
+    
+    .liveaid:hover {
+        transform: scale(1.05);
+    }
+    
+    .liveaid-img {
+        @include box-shadow;
+        border-radius: 10px;
+        margin-right: 5px;
+        order: -1;
+        @include momentos-mobile;
+    }
+    
+    .liveaid-text {
+        text-align: justify;
+        padding-top: 32px;
+        padding-right: 20px;
+    }
+}

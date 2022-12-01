@@ -1,0 +1,45 @@
+/*General*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-shadow: 2px 2px #390503;
+  min-height: 100%;
+  background-image: url("../images/VHSnoise.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*Extends*/
+.momentos-generales {
+  border-radius: 10px;
+  margin: 3.3rem 3.3rem;
+  padding: 1.25rem 1.25rem;
+}
+
+/*# sourceMappingURL=generales.css.map */

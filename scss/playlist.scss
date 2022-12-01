@@ -1,0 +1,141 @@
+/*Playlist*/
+.title-mus {
+    font-size: 4rem;
+    @include margin(18rem, 20rem);
+    text-align: center;
+}
+
+.playlist {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.playlist-spec {
+    font-size: 2rem;
+    text-align: center;
+    background-image: url("../images/3EQO.gif");
+    margin-left: 40px;
+    @include margin(100px, 100px);
+    padding: 40px 40px 30px 20px;
+}
+
+.playlist-link {
+    margin-right: 40px;
+}
+
+.playlist-link-compact {
+    display: none;
+}
+
+.playlist-spec2 {
+    font-size: 2rem;
+    text-align: center;
+    background-image: url("../images/3EQO.gif");
+    margin-right: 40px;
+    @include margin(100px, 100px);
+    padding: 40px 30px 30px 20px;
+}
+
+.playlist-link2 {
+    margin-left: 40px;
+}
+
+.playlist-link-compact2 {
+    display: none;
+}
+
+.last-words {
+    background-color: #070216;
+    text-align: center;
+    font-size: 2rem;
+    @include margin(12rem, 10rem);
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding: 30px 50px;
+    border-radius: 10px;
+}
+
+.last-words-link {
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    color: #390503;
+    text-shadow: 2px 2px #070216;
+}
+
+.last-words-link:hover {
+    color: #1C4F60 !important;
+}
+
+@media only screen and (max-width:480px){
+    .title-mus {
+        font-size: 2rem;
+        padding: 0rem 6rem;
+        @include margin(16rem, 18rem);
+        text-align: center;
+    }
+    
+    .playlist {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+    
+    .playlist-spec {
+        font-size: 1rem;
+        text-align: center;
+        background-image: url("../images/3EQO.gif");
+        margin-left: 0rem;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding: 40px 40px 30px 40px;
+    }
+    
+    .playlist-link {
+        display: none;
+    }
+    
+    .playlist-link-compact {
+        display: inline;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .playlist-spec2 {
+        font-size: 1rem;
+        text-align: center;
+        background-image: url("../images/3EQO.gif");
+        margin-right: 0rem;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding: 40px 30px 30px 20px;
+    }
+    
+    .playlist-link2 {
+        display: none;
+    }
+    
+    .playlist-link-compact2 {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .last-words {
+        background-color: #070216;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 12rem;
+        margin-bottom: 10rem;
+        border-radius: 10px;
+    }
+    
+    .last-words-link {
+        font-size: 32px;
+        font-family: 'Roboto', sans-serif;
+        color: #390503;
+        text-shadow: 2px 2px #070216;
+    }
+    
+    .last-words-link:hover {
+        color: #1C4F60 !important;
+    }
+}

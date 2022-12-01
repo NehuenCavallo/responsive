@@ -1,0 +1,22 @@
+/*Historia*/
+
+.title-doc2 {
+    font-size: 4rem;
+    color: #D0BE96;
+    bottom: 40%;
+    left: 40%;
+    position: absolute;
+}
+
+.bloque {
+    background-color: #070216;
+    margin: 3rem 4rem;
+    padding: 1.8rem 3.1rem;
+    border-radius: 0.62rem;
+    @include box-shadow;
+}
+
+.bloque-p {
+    padding: 0 2rem;
+    text-align: justify;
+}

@@ -1,0 +1,19 @@
+/*mixin*/
+@mixin sizes($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+@mixin margin($top, $bottom){
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
+
+@mixin box-shadow {
+    box-shadow: 2px 2px #390503;
+}
+
+@mixin momentos-mobile {
+    max-width: 100%;
+    height: auto;
+}

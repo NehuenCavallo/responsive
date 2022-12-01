@@ -1,0 +1,7 @@
+/*Grid*/
+.grid-container {
+  display: grid;
+  grid-template-areas: "head head" "main main" "footer footer";
+}
+
+/*# sourceMappingURL=grid.css.map */
